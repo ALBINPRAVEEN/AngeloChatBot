@@ -1,4 +1,4 @@
-# Tiana Chat Bot
+# ANgelo Chat Bot
 • Just another Telegram AI chat bot written in Python using Pyrogram.
 
 • A Public Running Instance can be found on Telegram as [@alby_chat_bot](https://t.me/alby_chat_bot).
