@@ -128,7 +128,7 @@ async def chatpm(_, message):
 
 @bot.on_message(filters.command("start") & ~filters.edited)
 async def startt(_, message):
-    await message.reply_text("Hi, I'm Alive ╮(. ❛ ᴗ ❛.)╭ I am a AI chat bot made by ALBINPRAVEEN.You can chat with me .More learn about the developer: https://albinpraveen.ml")
+    await message.reply_text("Hi, I'm Alive ╮(. ❛ ᴗ ❛.)╭ I am a AI chat bot made by ALBINPRAVEEN.You can chat with me .Learn more about the developer: https://albinpraveen.ml")
 
 
 async def main():
@@ -139,7 +139,7 @@ async def main():
     await bot.start()
     print(
         """
-Your aleena Is Deployed Successfully.
+Your angelo Is Deployed Successfully.
 """
     )
     await idle()
