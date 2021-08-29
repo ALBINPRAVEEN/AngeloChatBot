@@ -67,8 +67,8 @@ async def type_and_send(message):
 @bot.on_message(filters.command("owner") & ~filters.edited)
 async def repo(_, message):
     await message.reply_text(
-        "[GitHub](https://github.com/ALBINPRAVEEN/AngeloChatBot)"
-        + " | [Developer](https://albinpraveen.ml)",
+        "[Owner](https://albinpraveen.ml)"
+        + " | [Contact](t.me/i_am_albin_praveen)",
         disable_web_page_preview=True,
     )
     
@@ -76,8 +76,8 @@ async def repo(_, message):
 @bot.on_message(filters.command("boss") & ~filters.edited)
 async def repo(_, message):
     await message.reply_text(
-        "[GitHub](https://github.com/ALBINPRAVEEN/AngeloChatBot)"
-        + " | [Developer](https://albinpraveen.ml)",
+        "[Owner](https://albinpraveen.ml)"
+        + " | [Contact](t.me/i_am_albin_praveen)",
         disable_web_page_preview=True,
     )
 
@@ -95,7 +95,7 @@ async def start(_, message):
     & filters.text
     & ~filters.command("start")
     & ~filters.edited,
-    DEVELOPER=69,
+    group=69,
 )
 async def chat(_, message):
     if message.reply_to_message:
@@ -139,7 +139,7 @@ async def main():
     await bot.start()
     print(
         """
-Your angelo Is Deployed Successfully.
+Your aleena Is Deployed Successfully.
 """
     )
     await idle()
