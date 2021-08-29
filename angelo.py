@@ -68,7 +68,7 @@ async def type_and_send(message):
 async def repo(_, message):
     await message.reply_text(
         "[GitHub](https://github.com/ALBINPRAVEEN/AngeloChatBot)"
-        + " | [DEVELOPER](https://albinpraveen.ml)",
+        + " | [Developer](https://albinpraveen.ml)",
         disable_web_page_preview=True,
     )
     
@@ -77,7 +77,7 @@ async def repo(_, message):
 async def repo(_, message):
     await message.reply_text(
         "[GitHub](https://github.com/ALBINPRAVEEN/AngeloChatBot)"
-        + " | [DEVELOPER](https://albinpraveen.ml)",
+        + " | [Developer](https://albinpraveen.ml)",
         disable_web_page_preview=True,
     )
 
